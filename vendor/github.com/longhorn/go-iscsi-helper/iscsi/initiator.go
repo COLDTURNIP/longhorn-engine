@@ -63,6 +63,7 @@ func DiscoverTarget(ip, target string, nsexec *lhns.Executor) error {
 		"-m", "discovery",
 		"-t", "sendtargets",
 		"-p", ip,
+		"-I", "default",
 	}
 	output, err := nsexec.Execute(nil, iscsiBinary, opts, lhtypes.ExecuteDefaultTimeout)
 	if err != nil {

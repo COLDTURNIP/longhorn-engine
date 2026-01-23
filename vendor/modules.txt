@@ -313,7 +313,7 @@ github.com/longhorn/go-common-libs/sync
 github.com/longhorn/go-common-libs/sys
 github.com/longhorn/go-common-libs/types
 github.com/longhorn/go-common-libs/utils
-# github.com/longhorn/go-iscsi-helper v0.0.0-20251130062153-44edbb497d99
+# github.com/longhorn/go-iscsi-helper v0.0.0-20251130062153-44edbb497d99 => github.com/COLDTURNIP/go-iscsi-helper v0.0.0-20260123104044-531b1ad6ec7b
 ## explicit; go 1.24.0
 github.com/longhorn/go-iscsi-helper/iscsi
 github.com/longhorn/go-iscsi-helper/iscsidev
@@ -610,3 +610,4 @@ k8s.io/utils/clock
 k8s.io/utils/exec
 k8s.io/utils/io
 k8s.io/utils/keymutex
+# github.com/longhorn/go-iscsi-helper => github.com/COLDTURNIP/go-iscsi-helper v0.0.0-20260123104044-531b1ad6ec7b

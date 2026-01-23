@@ -104,3 +104,5 @@ require (
 	k8s.io/klog/v2 v2.130.1 // indirect
 	k8s.io/utils v0.0.0-20241210054802-24370beab758 // indirect
 )
+
+replace github.com/longhorn/go-iscsi-helper => github.com/COLDTURNIP/go-iscsi-helper v0.0.0-20260123104044-531b1ad6ec7b
