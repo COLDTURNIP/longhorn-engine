@@ -14,5 +14,9 @@ go vet ${PACKAGES}
 echo "Running: golangci-lint"
 golangci-lint run --timeout=5m
 
+
+echo Running: go-import-checker
+go run scripts/go-import-checker.go
+
 echo Running: go fmt
 test -z "$(go fmt ${PACKAGES} | tee /dev/stderr)"
